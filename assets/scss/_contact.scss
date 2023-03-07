@@ -1,0 +1,95 @@
+.section {
+    width: 1280px;
+    max-width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin: 240px auto 0;
+    padding: 40px;
+   
+}
+.sectionHeader {
+    font-family: 'Gloock', serif;
+    font-size: 160px;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    text-align: left;
+    z-index: 10;
+    position: relative;
+    line-height: 0.6em;
+    pointer-events: none;
+}
+
+.contactInfo {
+    color: #fff;
+    padding-top: 75px;
+    padding-right: 55%;
+    padding-left: 50px;
+    background-color: #1f4954;
+    text-align: left;
+    position: relative;
+    box-sizing: border-box;
+}
+.grid-item-header-left {
+    margin-top: 0;
+    max-width: 440px;
+    margin-left: 0;
+    margin-bottom: 50px;
+    display: block;
+    font-size: 58px;
+}
+
+.grid-item-divider {
+    display: block;
+    position: relative;
+    height: 3px;
+    background-color: currentColor;
+    width: 60px;
+    right: 0;
+    margin: 60px auto 30px;
+    transform: scaleX(0.8);
+    transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.grid-item-text-left {
+    max-width: 70%;
+    margin: 0 0 2em;
+}
+
+.contactLinks {
+    color: #fff;
+    padding-top: 75px;
+    padding-right: 55%;
+    padding-left: 50px;
+    background-color: #1f4954;
+    text-align: left;
+    position: relative;
+    box-sizing: border-box;
+}
+.contactLink {
+    padding: 4px;
+    margin-right: 5px;
+    display: inline-block;
+    margin-bottom: 55px;
+    vertical-align: top;
+}
+
+.contactPicture {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 50%;
+    background-color: #e7e8ed;
+}
+
+.contact-picture-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.contact-icon {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+}
