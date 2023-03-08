@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Gloock&family=Raleway:ital,wght@0,100;0,600;1,900&family=Reenie+Beanie&display=swap");
-.section {
+.section1 {
   width: 1280px;
   max-width: 100%;
   overflow: hidden;
@@ -425,4 +425,20 @@ header .navA:hover::before {
   background-color: white;
   position: relative;
   z-index: 3;
+}
+
+.w-i-pGIF {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  height: 80vh;
+  z-index: 0;
+}
+
+.w-i-pText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  z-index: 0;
 }

@@ -37,7 +37,6 @@ header {
   }
 
   .navA::before {
-    content: "";
     position: absolute;
     display: block;
     width: 100%;
@@ -231,4 +230,21 @@ header {
   background-color: white;
   position: relative;
   z-index: 3;
+}
+
+.w-i-pGIF {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  height: 80vh;
+  z-index: 0;
+    
+}
+
+.w-i-pText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  z-index: 0;
 }
