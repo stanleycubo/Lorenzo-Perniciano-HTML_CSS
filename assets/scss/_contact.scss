@@ -58,19 +58,22 @@
 .contactLinks {
     color: #fff;
     padding-top: 75px;
-    padding-right: 55%;
+    padding-right: 20%;
     padding-left: 50px;
     background-color: #1f4954;
     text-align: left;
     position: relative;
     box-sizing: border-box;
+
 }
 .contactLink {
     padding: 4px;
-    margin-right: 5px;
+    margin-right: 15px;
+    margin-left: 30px;
     display: inline-block;
     margin-bottom: 55px;
     vertical-align: top;
+    
 }
 
 .contactPicture {
@@ -89,7 +92,7 @@
 }
 
 .contact-icon {
-    width: 30px;
-    height: 30px;
+    width: 10px;
+    height: 10px;
     display: inline-block;
 }

@@ -29,7 +29,6 @@ header {
     color: #000;
     text-decoration: none;
     z-index: 2;
-
   }
 
   .navA:hover {
@@ -68,8 +67,6 @@ header {
   color: white;
   background-color: #000;
 }
-
-
 
 .homeContent {
   position: relative;
@@ -126,12 +123,11 @@ header {
 
 .header {
   position: sticky;
-  display: flexbox; 
+  display: flexbox;
   height: 52px;
   z-index: 300;
   background-color: white;
   top: 20;
-  
 
   ul {
     display: flex;
@@ -139,7 +135,6 @@ header {
     align-items: auto;
     flex-direction: column;
   }
-
 }
 
 .headerLogo {
@@ -155,7 +150,7 @@ header {
 }
 
 .headerLogo:hover {
-  color: #000; 
+  color: #000;
 }
 
 .hMenu {
@@ -169,7 +164,6 @@ header {
   li {
     width: 100%;
 
-
     // TODO x media query a > width: 15% a:hover >width: 19%
     a {
       display: block;
@@ -182,9 +176,9 @@ header {
       border-bottom: 1px solid white;
     }
     // TODO aggiungi ejs?
-// TODO aggiungi un animazione x rendere il tutto + fluido
+    // TODO aggiungi un animazione x rendere il tutto + fluido
     a:hover {
-        width: 23%;
+      width: 23%;
     }
   }
 
@@ -192,38 +186,34 @@ header {
     margin-bottom: 18%;
   }
 }
-// TODO sistema prendendo spunto da TOBIAS AHLIN 
+// TODO sistema prendendo spunto da TOBIAS AHLIN
 // TODO aggiungi un animazione all'apertura
 .hMenuOpen {
-    .hMenu {
-        height: 120vh;
-        overflow: hidden;
-        position: fixed;
-        top: 0;
-        background-color: #000;
-
-        
-    }
-
+  .hMenu {
+    height: 120vh;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    background-color: #000;
+  }
 }
 
 .Hamburger {
-    height: 50px;
-    width: 50px;
-    margin-left: 13px;
-    margin-top: 10px;
+  height: 50px;
+  width: 50px;
+  margin-left: 13px;
+  margin-top: 10px;
+  position: relative;
+  top: -51px;
+
+  span {
+    height: 1px;
+    width: 35px;
+    background-color: #f40000;
     position: relative;
-    top: -51px;
-
-    span {
-        height: 1px;
-        width: 35px;
-        background-color: #f40000;
-        position: relative;
-        display: block;
-        margin-top: 13px;
-    }
-
+    display: block;
+    margin-top: 13px;
+  }
 }
 
 .aboutContainer {
@@ -232,19 +222,30 @@ header {
   z-index: 3;
 }
 
-.w-i-pGIF {
+// * work in progress
+
+.containerW-I-P {
+  position: relative;
   display: flex;
-  align-items: center;
-  justify-content: right;
+  justify-content: space-between;
+
+}
+
+.w-i-pGIF {
   height: 80vh;
   z-index: 0;
-    
+  display: flex;
+  margin-top: 2%;
 }
 
 .w-i-pText {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   height: 80vh;
   z-index: 0;
+  width: 40%;
+  height: 350px;
+  right: 9%;
+  margin-top: 13%;
+  margin-right: 60px;
+  text-align: center;
+
 }

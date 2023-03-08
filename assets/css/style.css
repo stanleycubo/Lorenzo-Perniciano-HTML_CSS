@@ -60,7 +60,7 @@
 .contactLinks {
   color: #fff;
   padding-top: 75px;
-  padding-right: 55%;
+  padding-right: 20%;
   padding-left: 50px;
   background-color: #1f4954;
   text-align: left;
@@ -70,7 +70,8 @@
 
 .contactLink {
   padding: 4px;
-  margin-right: 5px;
+  margin-right: 15px;
+  margin-left: 30px;
   display: inline-block;
   margin-bottom: 55px;
   vertical-align: top;
@@ -93,8 +94,8 @@
 }
 
 .contact-icon {
-  width: 30px;
-  height: 30px;
+  width: 10px;
+  height: 10px;
   display: inline-block;
 }
 
@@ -254,7 +255,6 @@ header .navA:hover {
   color: #000;
 }
 header .navA::before {
-  content: "";
   position: absolute;
   display: block;
   width: 100%;
@@ -427,18 +427,26 @@ header .navA:hover::before {
   z-index: 3;
 }
 
-.w-i-pGIF {
+.containerW-I-P {
+  position: relative;
   display: flex;
-  align-items: center;
-  justify-content: right;
+  justify-content: space-between;
+}
+
+.w-i-pGIF {
   height: 80vh;
   z-index: 0;
+  display: flex;
+  margin-top: 2%;
 }
 
 .w-i-pText {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   height: 80vh;
   z-index: 0;
+  width: 40%;
+  height: 350px;
+  right: 9%;
+  margin-top: 13%;
+  margin-right: 60px;
+  text-align: center;
 }
