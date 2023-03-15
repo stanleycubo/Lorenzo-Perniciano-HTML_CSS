@@ -3,7 +3,8 @@
   width: 1280px;
   max-width: 100%;
   overflow: hidden;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   margin: 240px auto 0;
   padding: 40px;
 }
@@ -28,7 +29,8 @@
   background-color: #1f4954;
   text-align: left;
   position: relative;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .grid-item-header-left {
@@ -48,8 +50,12 @@
   width: 60px;
   right: 0;
   margin: 60px auto 30px;
-  transform: scaleX(0.8);
+  -webkit-transform: scaleX(0.8);
+          transform: scaleX(0.8);
+  -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: -webkit-transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), -webkit-transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 .grid-item-text-left {
@@ -65,7 +71,8 @@
   background-color: #1f4954;
   text-align: left;
   position: relative;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .contactLink {
@@ -108,19 +115,33 @@
   margin-top: 0px;
 }
 .headerPT ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: auto;
-  flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: auto;
+      -ms-flex-align: auto;
+          align-items: auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .headerLogoPT {
   font-family: "Reenie Beanie", cursive;
   font-size: 20px;
-  justify-content: space-around;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   position: sticky;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   color: #000;
   text-decoration: none;
   height: 50px;
@@ -140,7 +161,8 @@
   width: 50%;
 }
 .ptContainer .in-page .titlePT {
-  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
   opacity: 1;
 }
 
@@ -152,15 +174,23 @@ article {
 .titlePT {
   text-align: center;
   height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   max-width: 50%;
   position: fixed;
   top: 0;
   left: 0;
   margin-left: 25%;
-  transform: scale(1);
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1);
   transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1);
   opacity: 0;
 }
@@ -195,9 +225,15 @@ article {
   z-index: 2;
   color: #000;
   text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .pngPanel {
@@ -230,7 +266,8 @@ article {
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
@@ -262,11 +299,16 @@ header .navA::before {
   bottom: 0;
   left: 0;
   background-color: #000;
-  transform: scaleX(0);
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: -webkit-transform 0.3s ease;
   transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
 }
 header .navA:hover::before {
-  transform: scaleX(1);
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
 }
 
 .navbar-brand {
@@ -287,9 +329,14 @@ header .navA:hover::before {
 
 .homeContent {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  box-sizing: border-box;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   overflow: hidden;
   height: 100vh;
 }
@@ -346,19 +393,33 @@ header .navA:hover::before {
   top: 20;
 }
 .header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: auto;
-  flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: auto;
+      -ms-flex-align: auto;
+          align-items: auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .headerLogo {
   font-family: "Reenie Beanie", cursive;
   font-size: 20px;
-  justify-content: space-around;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   position: sticky;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   color: #000;
   text-decoration: none;
   height: 50px;
@@ -429,13 +490,19 @@ header .navA:hover::before {
 
 .containerW-I-P {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .w-i-pGIF {
   height: 80vh;
   z-index: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-top: 2%;
 }
