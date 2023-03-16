@@ -1,0 +1,521 @@
+@import url("https://fonts.googleapis.com/css2?family=Gloock&family=Raleway:ital,wght@0,100;0,600;1,900&family=Reenie+Beanie&display=swap");
+.contactCard {
+  width: 1064px;
+  height: 755px;
+  max-width: 90%;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0 auto 0;
+  padding: 40px;
+  resize: both;
+}
+
+.sectionHeader {
+  font-family: "Gloock", serif;
+  font-size: 160px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  text-align: left;
+  z-index: 10;
+  position: relative;
+  line-height: 0.6em;
+  pointer-events: none;
+}
+
+.contactInfo {
+  color: #fff;
+  padding-top: 75px;
+  padding-right: 55%;
+  padding-left: 50px;
+  background-color: #1f4954;
+  text-align: left;
+  position: relative;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.grid-item-header-left {
+  margin-top: 0;
+  max-width: 440px;
+  margin-left: 0;
+  margin-bottom: 50px;
+  display: block;
+  font-size: 58px;
+}
+
+.grid-item-divider {
+  display: block;
+  position: relative;
+  height: 3px;
+  background-color: currentColor;
+  width: 60px;
+  right: 0;
+  margin: 60px auto 30px;
+  -webkit-transform: scaleX(0.8);
+          transform: scaleX(0.8);
+  -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: -webkit-transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), -webkit-transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.grid-item-text-left {
+  max-width: 70%;
+  margin: 0 0 2em;
+}
+
+.contactLinks {
+  color: #fff;
+  padding-top: 75px;
+  padding-right: 20%;
+  padding-left: 50px;
+  background-color: #1f4954;
+  text-align: left;
+  position: relative;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.contactLink {
+  padding: 4px;
+  margin-right: 15px;
+  margin-left: 30px;
+  display: inline-block;
+  margin-bottom: 55px;
+  vertical-align: top;
+}
+
+.contactPicture {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 50%;
+  background-color: #e7e8ed;
+}
+
+.contact-picture-img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.contact-icon {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+}
+
+.headerPT {
+  position: fixed;
+  display: flexbox;
+  height: 52px;
+  z-index: 900;
+  background-color: white;
+  margin-top: 0px;
+}
+.headerPT ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: auto;
+      -ms-flex-align: auto;
+          align-items: auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.headerLogoPT {
+  font-family: "Reenie Beanie", cursive;
+  font-size: 20px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  position: sticky;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #000;
+  text-decoration: none;
+  height: 50px;
+}
+
+.headerLogoPT:hover {
+  color: #000;
+}
+
+.ptContainer {
+  height: auto;
+  width: 100%;
+  position: absolute;
+  top: 52px;
+}
+.ptContainer .uno {
+  width: 50%;
+}
+.ptContainer .in-page .titlePT {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  opacity: 1;
+}
+
+article {
+  padding-top: 0;
+  text-align: center;
+}
+
+.titlePT {
+  text-align: center;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 50%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin-left: 25%;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1);
+  opacity: 0;
+}
+
+.section {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 100vh;
+  margin-top: 0;
+}
+
+.btnPT {
+  padding-bottom: 3%;
+}
+
+.imgPT {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  -o-object-fit: cover;
+     object-fit: cover;
+  opacity: 0.5;
+  z-index: 0;
+}
+
+.panel {
+  height: 50vh;
+  width: 100%;
+  background: #fff;
+  position: relative;
+  z-index: 2;
+  color: #000;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.pngPanel {
+  height: 45vh;
+}
+.pngPanel img {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  bottom: 95%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  z-index: 0;
+}
+.pngPanel a {
+  position: relative;
+  z-index: 1;
+  bottom: 180%;
+}
+
+.a1 {
+  left: 30%;
+}
+
+.a2 {
+  right: 30%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  overflow: auto;
+}
+
+header {
+  position: absolute;
+  width: 100%;
+  margin-top: 1%;
+}
+header li {
+  margin-left: 6px;
+}
+header .navA {
+  position: relative;
+  color: #000;
+  text-decoration: none;
+  z-index: 2;
+}
+header .navA:hover {
+  color: #000;
+}
+header .navA::before {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+header .navA:hover::before {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+}
+
+.navbar-brand {
+  font-family: "Reenie Beanie", cursive;
+  font-size: 30px;
+}
+
+.navB {
+  color: white;
+  position: relative;
+  z-index: 2;
+}
+
+.navB:hover {
+  color: white;
+  background-color: #000;
+}
+
+.homeContent {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow: hidden;
+  height: 100vh;
+}
+.homeContent img {
+  width: 100%;
+  height: 100vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: fixed;
+}
+.homeContent h1 {
+  font-family: "Reenie Beanie", cursive;
+}
+
+.homeTopParagraph {
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  color: #000;
+}
+
+.homeBottomParagraph {
+  position: absolute;
+  top: 60.4%;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  color: #000;
+}
+
+.homeHeading {
+  position: absolute;
+  top: 48%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.homeImage {
+  position: relative;
+  opacity: 0.75;
+  width: 100%;
+  height: 20%;
+}
+
+.header {
+  position: sticky;
+  display: flexbox;
+  height: 52px;
+  z-index: 300;
+  background-color: white;
+  top: 20;
+}
+.header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: auto;
+      -ms-flex-align: auto;
+          align-items: auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.headerLogo {
+  font-family: "Reenie Beanie", cursive;
+  font-size: 20px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  position: sticky;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #000;
+  text-decoration: none;
+  height: 50px;
+}
+
+.headerLogo:hover {
+  color: #000;
+}
+
+.hMenu {
+  position: absolute;
+  top: 2px;
+  width: 100%;
+  list-style-type: none;
+  height: 0vh;
+  overflow: hidden;
+}
+.hMenu li {
+  width: 100%;
+}
+.hMenu li a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  width: 19%;
+  margin: 1% auto;
+  padding-bottom: 2%;
+  border-bottom: 1px solid white;
+}
+.hMenu li a:hover {
+  width: 23%;
+}
+.hMenu li:last-child {
+  margin-bottom: 18%;
+}
+
+.hMenuOpen .hMenu {
+  height: 120vh;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  background-color: #000;
+}
+
+.Hamburger {
+  height: 50px;
+  width: 50px;
+  margin-left: 13px;
+  margin-top: 10px;
+  position: relative;
+  top: -51px;
+}
+.Hamburger span {
+  height: 1px;
+  width: 35px;
+  background-color: #f40000;
+  position: relative;
+  display: block;
+  margin-top: 13px;
+}
+
+.aboutContainer {
+  background-color: white;
+  position: relative;
+  z-index: 3;
+}
+
+.containerW-I-P {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.w-i-pGIF {
+  height: 80vh;
+  z-index: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 2%;
+}
+
+.w-i-pText {
+  height: 80vh;
+  z-index: 0;
+  width: 40%;
+  height: 350px;
+  right: 9%;
+  margin-top: 13%;
+  margin-right: 60px;
+  text-align: center;
+}
