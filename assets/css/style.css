@@ -1,14 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Gloock&family=Raleway:ital,wght@0,100;0,600;1,900&family=Reenie+Beanie&display=swap");
 .contactCard {
-  width: 1064px;
-  height: 755px;
   max-width: 90%;
   overflow: hidden;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin: 0 auto 0;
   padding: 40px;
-  resize: both;
 }
 
 .sectionHeader {
@@ -33,6 +30,10 @@
   position: relative;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  margin-bottom: 16%;
+  overflow: hidden;
+  border-radius: 10px;
+  border: #1f4954 2px solid;
 }
 
 .grid-item-header-left {
@@ -70,11 +71,11 @@
   padding-top: 75px;
   padding-right: 20%;
   padding-left: 50px;
-  background-color: #1f4954;
   text-align: left;
   position: relative;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  bottom: 25px;
 }
 
 .contactLink {
