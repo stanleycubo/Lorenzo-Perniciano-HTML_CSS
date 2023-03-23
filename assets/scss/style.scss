@@ -2,6 +2,7 @@
 // TODO controlla le classi ed elimina quelle superflue
 @use "contact";
 // @use "caricamento";
+@use "responsive";
 @use "portfolio";
 
 @import url("https://fonts.googleapis.com/css2?family=Gloock&family=Raleway:ital,wght@0,100;0,600;1,900&family=Reenie+Beanie&display=swap");
@@ -175,7 +176,6 @@ header {
       padding-bottom: 2%;
       border-bottom: 1px solid white;
     }
-    // TODO aggiungi ejs?
     // TODO aggiungi un animazione x rendere il tutto + fluido
     a:hover {
       width: 23%;
