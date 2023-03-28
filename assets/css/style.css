@@ -312,7 +312,7 @@ header .navA:hover::before {
 }
 
 .navB {
-  color: white;
+  color: black;
   position: relative;
   z-index: 2;
 }
