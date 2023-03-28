@@ -10,7 +10,7 @@
   <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
-  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="../assets/css/style.min.css" />
 </head>
 
 <body>
@@ -20,35 +20,45 @@
       background: black;
       color: white;
     }
+
+    .navB {
+      color: black;
+      position: relative;
+      z-index: 2;
+    }
+
+    .navB:hover {
+      color: white;
+
+    }
+
+    .navColor {
+      opacity: 60%;
+    }
   </style>
   <!-- TODO rimpicciolisci l'hamburger menù -->
-  <header class="headerPT">
-    <a class="headerLogoPT" href="index.html">Lorenzo Perniciano</a>
-    <ul class="hMenu">
-      <li>
-        <a href="index.html">Home</a>
+
+  <div class="navColor"></div>
+  <header>
+    <ul class="nav justify-content-center">
+      <li class="nav-item">
+        <a class="nav-link active navA" aria-current="page" href="../">Home</a>
       </li>
-      <li>
-        <a href="assets/work-in-progress.html">How</a>
+      <li class="nav-item">
+        <a class="nav-link navA disabled" aria-disabled="true" href="../assets/work-in-progress/">How</a>
       </li>
-      <li>
-        <a href="portfolio.html">Portfolio</a>
+      <li class="nav-item">
+        <a class="nav-link navA" href="">Portfolio</a>
       </li>
-      <li>
-        <a href="assets/work-in-progress.html">Blog</a>
+      <li class="nav-item">
+        <a class="nav-link navA disabled" aria-disabled="true" href="../assets/work-in-progress/">Blog</a>
       </li>
-      <li>
-        <a href="contact.html">Contact</a>
+      <li class="nav-item">
+        <a class="btn btn-outline-dark nav-link navB" href="../contact.html">contact</a>
       </li>
     </ul>
-    <div class="Hamburger">
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
   </header>
-
-  <img src="assets/img/brain.jpg" class="imgPT" alt="immagine home" />
+  <img src="../assets/img/brain.jpg" class="imgPT" alt="immagine home" />
 
   <div class="ptContainer">
     <article>
@@ -66,26 +76,26 @@
       <div class="section base">
         <h2 class="titlePT">
           which is why I have taken the decision to include on this section
-          both my creative and developer portfolio
+          both my creative and developer portfolio.
         </h2>
       </div>
       <!-- TODO sistema i bottoni + in alto e aggiungigli una descrizione OPPURE metti bottoni e descrizione nello spazio bianco e fai in modo che si possa andare al portfolio scelto usando le immagini -->
       <div class="panel"></div>
       <div class="pngPanel">
-        <img src="assets/img/foto-code.jpg" alt="lo schermo di un computer" />
+        <img src="../assets/img/foto-code.jpg" id="foto1" alt="lo schermo di un computer" />
 
-        <a class="btn btn-dark btn-lg a1" href="assets/work-in-progress.html" role="button">Developing</a>
+        <a class="btn btn-dark btn-lg a1" href="../assets/work-in-progress.html" role="button">Developing</a>
       </div>
       <div class="panel"></div>
       <div class="pngPanel">
-        <img src="assets/img/foto-photo.jpg" alt="set fotografico" />
+        <img src="../assets/img/foto-photo.jpg" id="foto2" alt="set fotografico" />
 
-        <a class="btn btn-warning btn-lg a2" href="assets/work-in-progress.html" role="button">Photography</a>
+        <a class="btn btn-warning btn-lg a2" href="../assets/work-in-progress" role="button">Photography</a>
       </div>
-      <div class="panel"></div>
+      <div class="panel last"></div>
     </article>
   </div>
-  <script src="assets/js/index.js" async defer></script>
+  <script src="../assets/js/index.js" async defer></script>
 </body>
 
 </html>
