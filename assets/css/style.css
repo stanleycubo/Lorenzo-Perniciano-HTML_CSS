@@ -246,6 +246,167 @@ article {
   right: 30%;
 }
 
+.baseFotoFrame {
+  position: fixed;
+  border: 24px solid white;
+  border-top: 0;
+  border-bottom: none;
+  top: 56px;
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+  height: 100%;
+  background-color: black;
+}
+
+.bottomFotoFrame {
+  position: fixed;
+  border-bottom: 24px solid white;
+  bottom: 0;
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+  height: 100%;
+  z-index: -3;
+}
+
+.wrapper {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: block;
+  position: relative;
+}
+.wrapper ul {
+  padding: 0;
+}
+.wrapper li {
+  height: 30%;
+  position: relative;
+  margin-bottom: 7.5%;
+  margin-top: 7.5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.titoli {
+  height: 15%;
+  color: white;
+}
+
+.nomePrj {
+  height: 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.rect {
+  border: 2px solid black;
+  height: 25vh;
+  position: relative;
+  top: 73px;
+  width: 90vh;
+  margin: 20px auto 0 auto;
+}
+
+.jsCounter {
+  margin-top: 2%;
+  margin-left: 1%;
+}
+
+.container1 {
+  position: absolute;
+  width: 35%;
+  border: none;
+  border-radius: 20px;
+  top: 14%;
+  left: 63%;
+  background-color: #2c3333;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+#buttonLeft {
+  position: absolute;
+  top: 39px;
+  left: 5%;
+  border-radius: 10px;
+  z-index: 2;
+}
+
+#buttonRight {
+  position: absolute;
+  top: 39px;
+  left: 75%;
+  border-radius: 10px;
+  z-index: 2;
+}
+
+#resetButton {
+  font-size: 18px;
+  margin-top: 15px;
+  margin-bottom: 13px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  color: #cbe4de;
+  text-align: center;
+}
+
+#resetButton:hover {
+  color: #1bb9bf;
+  font-size: 20px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+#counter {
+  position: relative;
+  font-size: 48px;
+  color: #cbe4de;
+  z-index: 1;
+  text-align: center;
+  margin-top: 35px;
+}
+
+button {
+  font-size: 24px;
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: #cbe4de;
+  color: #2e4f4f;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  width: 20%;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0e8388;
+  color: #cbe4de;
+}
+
 * {
   margin: 0;
   padding: 0;
