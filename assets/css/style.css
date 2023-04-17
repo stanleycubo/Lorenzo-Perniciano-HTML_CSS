@@ -325,13 +325,23 @@ article {
   margin-bottom: 4%;
 }
 
+.lav1 {
+  text-align: center;
+}
+.lav1 h1 {
+  margin-top: 10%;
+}
+.lav1 p {
+  margin-top: 3%;
+}
+
 .rect {
   height: 25vh;
   position: relative;
   top: 73px;
   width: 90vh;
   margin: 20px auto 0 auto;
-  background-color: #ecfcf8;
+  background-color: #f0fcec;
   border-radius: 20px;
 }
 .rect h1 {

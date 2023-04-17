@@ -6,41 +6,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Contattami !</title>
     <meta name="description" content="">
-    <link rel="stylesheet" href="../../assets/css/style.min.css">
+    <link rel="stylesheet" href="../../assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="../../assets/img/favicon.ico" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
 </head>
 
 <body>
-    <header class="testa">
+    <style>
+        .navB {
+            color: black;
+            position: relative;
+            z-index: 2;
+        }
+
+        .navB:hover {
+            color: white;
+
+        }
+
+        .navColor {
+            opacity: 60%;
+        }
+    </style>
+    <header>
         <ul class="nav justify-content-center">
             <li class="nav-item">
-                <a class="nav-link active navA" aria-current="page" href="../">Home</a>
+                <a class="nav-link active navA" aria-current="page" href="../../">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link navA disabled" aria-disabled="true" href="../assets/work-in-progress/">How</a>
+                <a class="nav-link navA disabled" aria-disabled="true" href="../../assets/work-in-progress/">How</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link navA" href="">Portfolio</a>
+                <a class="nav-link navA" href="../">Portfolio</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link navA disabled" aria-disabled="true" href="../assets/work-in-progress/">Blog</a>
+                <a class="nav-link navA disabled" aria-disabled="true" href="../../assets/work-in-progress/">Blog</a>
             </li>
             <li class="nav-item">
-                <a class="btn btn-outline-dark nav-link navB" href="../contact.html">contact</a>
+                <a class="btn btn-outline-dark nav-link navB" href="../../contact.html">contact</a>
             </li>
         </ul>
     </header>
 
     <h1 class="intestaPtDev"> I lavori da developer </h1>
 
+    <div class="rect lav1">
+        <h1>This site!</h1>
+        <p>this site is also an important part of my portfolio</p>
+    </div>
+
     <div class="rect">
         <h1 class="jsCounter "> Counter JS</h1>
-        <p class="jsCounter"> il mio primo progetto sviluppato in JavaScript è un semplice <br> counter che da
-            l'opportunità di
-            incrementare o <br>
-            decrementare un determinato valore.</p>
+        <p class="jsCounter"> My frist project developed with JavaScript <br> it's a counter app that increase and
+            decrease <br> the value that is shown in the middle</p>
         <div class="container1">
 
             <button id="buttonLeft"> - </button>
@@ -54,7 +73,7 @@
 
         </div>
     </div>
-    <div class="rect"></div>
+
 
     <script src="../../assets/js/index.js" async defer></script>
 </body>
