@@ -318,18 +318,36 @@ article {
   text-align: center;
 }
 
+.intestaPtDev {
+  position: relative;
+  text-align: center;
+  top: 73px;
+  margin-bottom: 4%;
+}
+
 .rect {
-  border: 2px solid black;
   height: 25vh;
   position: relative;
   top: 73px;
   width: 90vh;
   margin: 20px auto 0 auto;
+  background-color: #ecfcf8;
+  border-radius: 20px;
+}
+.rect h1 {
+  padding-top: 2%;
+  margin-left: 2.5%;
+  font-size: 35px;
+  text-decoration: none;
+  color: black;
+}
+.rect h1:hover {
+  color: black;
 }
 
 .jsCounter {
-  margin-top: 2%;
-  margin-left: 1%;
+  margin-top: 2.5%;
+  margin-left: 2%;
 }
 
 .container1 {
@@ -385,7 +403,7 @@ article {
   color: #cbe4de;
   z-index: 1;
   text-align: center;
-  margin-top: 35px;
+  margin-top: 33px;
 }
 
 button {
